@@ -1,0 +1,31 @@
+{
+  "name": "pix-qrcode",
+  "version": "1.0.0",
+  "description": "Typescript library to generate QR Code of PIX (Brazilian Central Bank) payment method.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riccardoaranha/pix-qrcode-lib.git"
+  },
+  "keywords": [
+    "PIX",
+    "QR",
+    "Code",
+    "Banco",
+    "Central",
+    "Brasil",
+    "Brazil",
+    "Pagamentos",
+    "Transferencia",
+    "EMV-QRCPS"
+  ],
+  "author": "Riccardo Aranha",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/riccardoaranha/pix-qrcode-lib/issues"
+  },
+  "homepage": "https://github.com/riccardoaranha/pix-qrcode-lib#readme"
+}

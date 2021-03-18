@@ -1,4 +1,4 @@
-import util from 'util';
+import {inspect} from 'util';
 
 class PIXError extends Error { 
 	contents : string;
@@ -7,7 +7,7 @@ class PIXError extends Error {
 		this.name = 'PIXError';
 		var content = '';
 		params.forEach(function(obj : any) {
-			content = content + util.inspect(obj) + '\r\n';
+			content = content + inspect(obj) + '\r\n';
 		});
 		this.contents = content;
 	}

@@ -1,10 +1,10 @@
 {
   "name": "pixbr",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Typescript library to generate QR Code of PIX (Brazilian Central Bank) payment method.",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -r ts-node/register ./test/test.ts"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,20 @@
   "author": "Riccardo Aranha",
   "license": "GPL-3.0-only",
   "bugs": {
-    "url": "https://github.com/riccardoaranha/pix-qrcode-lib/issues"
+    "url": "https://github.com/riccardoaranha/pixbr/issues"
   },
-  "homepage": "https://github.com/riccardoaranha/pix-qrcode-lib#readme"
+  "homepage": "https://github.com/riccardoaranha/pixbr#readme",
+  "dependencies": {
+    "qrcode": "^1.4.4",
+    "typescript": "^4.2.3",
+    "util": "^0.12.3"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.15",
+    "@types/mocha": "^8.2.1",
+    "@types/node": "^14.14.35",
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "ts-node": "^9.1.1"
+  }
 }

@@ -1,4 +1,4 @@
-import * as PIX from '../src/pix'
+import * as PIX from '../index'
 import { expect } from 'chai';
 
 

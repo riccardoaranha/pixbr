@@ -9,7 +9,6 @@
   ],
   "scripts": {
     "test": "mocha -r ts-node/register ./test/test.ts",
-    /*"prepublishOnly": "tsc && rollup -c",*/
     "prepublishOnly": "npm run tsc",
     "tsc": "tsc -p tsconfig_2.json && tsc -p tsconfig_3.json",
     "clean": "rimraf dist && rimraf index.js && rimraf index.d.ts && rimraf lib"

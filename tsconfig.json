@@ -4,7 +4,7 @@
         "outDir": "dist",
         "declaration": true,
         "moduleResolution": "node",
-        "module": "commonjs",
+        "module": "CommonJS",
         "strict": true,
         "alwaysStrict": true,
         "esModuleInterop": true

@@ -13,6 +13,6 @@ export default [
             file: 'index.d.ts'
         },
         plugins: [dts()],
-        external: ['util']
+        external: ['util', 'qrcode']
     }
 ]

@@ -1,9 +1,12 @@
 {
     "compilerOptions": {
-        "target": "es6",
+        "target": "ES6",
         "outDir": "dist",
         "declaration": true,
-        "skipLibCheck": true,
-        "moduleResolution": "node"
+        "moduleResolution": "node",
+        "module": "commonjs",
+        "strict": true,
+        "alwaysStrict": true,
+        "esModuleInterop": true
     }
 }

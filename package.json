@@ -1,6 +1,6 @@
 {
   "name": "pixbr",
-  "version": "1.0.0-0",
+  "version": "1.0.0",
   "description": "Typescript library to generate QR Code of PIX (Brazilian Central Bank) payment method.",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",

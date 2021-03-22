@@ -9,9 +9,8 @@
   ],
   "scripts": {
     "test": "mocha -r ts-node/register ./test/test.ts",
-    "test2": "node ./test/testlib.js",
-    "prepublishOnly": "npm run tsc",
     "tsc": "tsc -p tsconfig_esm.json && tsc -p tsconfig_cjs.json",
+    "prepublishOnly": "npm run tsc",
     "clean": "rimraf lib"
   },
   "repository": {

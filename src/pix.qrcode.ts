@@ -1,5 +1,5 @@
 import * as Utils from './pix.utils';
-import QRCode from 'qrcode';
+import * as QRCode from 'qrcode';
 
 function toDataURL(msg : string, callback : (str : string) => void) : void {
 	QRCode.toDataURL(msg, function (err, url) {

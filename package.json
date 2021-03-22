@@ -9,9 +9,10 @@
   ],
   "scripts": {
     "test": "mocha -r ts-node/register ./test/test.ts",
+    "test2": "node ./test/testlib.js",
     "prepublishOnly": "npm run tsc",
-    "tsc": "tsc -p tsconfig_2.json && tsc -p tsconfig_3.json",
-    "clean": "rimraf dist && rimraf index.js && rimraf index.d.ts && rimraf lib"
+    "tsc": "tsc -p tsconfig_esm.json && tsc -p tsconfig_cjs.json",
+    "clean": "rimraf lib"
   },
   "repository": {
     "type": "git",
@@ -40,7 +41,6 @@
     "util": "^0.12.3"
   },
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "^11.2.0",
     "@types/chai": "^4.2.15",
     "@types/mocha": "^8.2.1",
     "@types/node": "^14.14.35",
@@ -48,8 +48,6 @@
     "chai": "^4.3.4",
     "mocha": "^8.3.2",
     "rimraf": "^3.0.2",
-    "rollup": "^2.41.4",
-    "rollup-plugin-dts": "^3.0.1",
     "ts-node": "^9.1.1",
     "typescript": "^4.2.3"
   }
